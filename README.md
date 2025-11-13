@@ -1,21 +1,53 @@
 🦁 Zoo Animal Simulator
 
-A small Java console app where you can view animals, add new animals, and make them produce sounds.
+A simple console-based zoo manager built in Java using Object-Oriented Programming principles.
 
-📌 Features
+🧠 What It Does
 
-View all animals in the zoo
+View all animals currently in the zoo
 
 Add new animals (name, species, age, sound)
 
-Make an animal “speak”
+Hear an animal make its sound
 
-Simple OOP design using Animal, Zoo, and Main classes
+Validates age input to prevent invalid entries
 
-🧱 How It Works
+🚀 Features
 
-Animal → stores name, species, age, and sound
+Animal class models real-world animals with name, species, age, and sound
 
-Zoo → manages a list of animals and user interactions
+Zoo class stores animals in an ArrayList<Animal>
 
-Main → menu loop (see animals, add animals, hear sounds)
+Smooth console interaction using Scanner
+
+Clean OOP structure with separate classes and responsibilities
+
+📦 Technologies Used
+
+Java (JDK 17+ recommended)
+
+Standard Java libraries (ArrayList, Scanner)
+
+🧪 How to Run
+
+Copy all files into your Java project or IDE (IntelliJ recommended)
+
+Run Main.java
+
+Use options 1–3 to interact with the zoo
+
+Type q to quit the simulator
+
+📚 What I Learned
+
+How to design classes with constructors and private fields
+
+Using ArrayList to manage dynamic collections
+
+Implementing toString() for clean object printing
+
+Handling user input with validation
+
+Separating logic across multiple classes (Animal, Zoo, Main)
+
+📅 Completed as part of my Level 2 Java OOP project ladder
